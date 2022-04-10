@@ -9,14 +9,14 @@ with open('requirements.txt', 'r') as fp:
 
 setup(
     name='readme-helper',
-    version='0.0.1',
+    version='0.0.2',
     description='Helpers for generating README files',
     long_description=long_description,
     author='Ken',
     author_email='kenjyco@gmail.com',
     license='MIT',
     url='https://github.com/kenjyco/readme-helper',
-    download_url='https://github.com/kenjyco/readme-helper/tarball/v0.0.1',
+    download_url='https://github.com/kenjyco/readme-helper/tarball/v0.0.2',
     packages=find_packages(),
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
